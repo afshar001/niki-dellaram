@@ -1,305 +1,51 @@
- *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-@font-face {
-    font-family: mnfo;
-    src: url(font/Mj_Farsi\ Simple\ Outline_0.woff2) format(woff2);
-}
-@font-face {
-    font-family: iran;
-    src: url(font/Iranian\ Sans.woff2) format(woff2);
-}
-@font-face {
-    font-family: latin;
-    src: url(font/AnyConv.com__AbrahamLincoln.woff2) format(woff2);
-}
- .logo{
-  display: flex;
-justify-content: center;
-align-items: center;
-height: 10px;
-margin-top: 30px;
- }
- .logo div {
-  font-size: 40px;
-  color: #7d5fff;
-  opacity: 0;
-  animation: dreamland 3s linear infinite;
- }
- @keyframes dreamland {
-  0% { opacity: 0; transform: translateY(-30px); }
-  100% { opacity: 1; transform: translateY(0); }
-  }
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+    <meta name="description" content="دلارام">
+    <link rel="stylesheet" href="one.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دلارام</title>
+</head>
+<body style=
+          "background-image: url(s3.jpg);
+           background-size: cover;
+           background-position:center;
+           height: 100vh;
+          image-rendering: crisp-edges;
+          image-resolution: 7200x;
+          background-repeat: no-repeat;">
+          <div class="logo">
+           <div>M</div>
+           <div>A</div>
+           <div>R</div>
+           <div>A</div>
+           <div>L</div>
+           <div>L</div>
+           <div>E</div>
+           <div>D</div>
+          </div>
+             <p id="p1"> لذت داشتن موهای ابریشمی را
+                <br> با ما تجربه کنید</p>
+                
+                <p id="p2">
+                  DELLARAM<br>BEAUTY
+                </p>
 
- .logo div:nth-child(1) { animation-delay: 0s; }
- .logo div:nth-child(2) { animation-delay: 0.4s; }
- .logo div:nth-child(3) { animation-delay: 0.8s; }
- .logo div:nth-child(4) { animation-delay: 1.2s; }
- .logo div:nth-child(5) { animation-delay: 1.6s; }
- .logo div:nth-child(6) { animation-delay: 2s; }
- .logo div:nth-child(7) { animation-delay: 2.4s; }
- .logo div:nth-child(8) { animation-delay: 2.8s; }
- .logo div:nth-child(9) { animation-delay: 0s; }
- .logo div:nth-child(10) { animation-delay: 0.4s; }
- .logo div:nth-child(11) { animation-delay: 0.8s; }
- .logo div:nth-child(12) { animation-delay: 1.2s; }
- .logo div:nth-child(13) { animation-delay: 1.6s; }
- .logo div:nth-child(14)  { animation-delay: 2s; }
- .logo div:nth-child(15) { animation-delay: 2.4s; }
- .logo div:nth-child(16) { animation-delay: 2.8s; }
- .logo div:nth-child(17) { animation-delay: 0s; }
- .logo div:nth-child(18) { animation-delay: 0.4s; }
- .logo div:nth-child(19) { animation-delay: 0.8s; }
- .logo div:nth-child(20) { animation-delay: 1.2s; }
- .logo div:nth-child(21) { animation-delay: 1.6s; }
+    <div class="rezerve">
+        <a href="09194239757">وقت رزرو کنید</a>
+        <span class="border-top"></span>
+      <span class="border-right"></span>
+      <span class="border-bottom"></span>
+      <span class="border-left"></span>
+    </div>
+    <div class="nemone">
+      <p><a href="https://www.instagram.com/delaram_keratinn">گالری نمونه کار ها (لطفا vpn  خود را فعالکنید)</a></p>
+      <span class="border-top"></span>
+    <span class="border-right"></span>
+    <span class="border-bottom"></span>
+    <span class="border-left"></span>
+  </div>
 
-
-
-
-   #p1{
-    font-family: iran;
-    color: whitesmoke;
-    text-align: center;
-    margin-top: 50px ;
-    font-size: 30px;
-    font-weight: 100;
-    line-height: 50px;
-    word-spacing: 9px;
-    }
-    #p2{
-        font-family:cursive;
-        font-size: 60px;
-        margin-top: 1%;
-        text-align: center;
-    }
-    #p2,.logo{
-        animation: colorChange 10s infinite;
-    }
-
-    @keyframes colorChange {
-        0% {
-            opacity: 1;
-            color:whitesmoke;
-        }
-        25% {
-          opacity: 1;
-          color: hsla(273, 67%, 55%, 0.773);
-        }
-        50% {
-            opacity: 1;
-            color: whitesmoke;
-        }
-        75%{
-          opacity: 1;
-          color: #0703d7;
-        }
-        100% {
-            opacity: 1;
-            color: rgb(43, 9, 106);
-    }
-    }
-    @keyframes colorChange {
-        0% {
-            opacity: 1;
-            color:whitesmoke;text-shadow:5px 5px 10px rgb(255, 255, 255);
-        }
-        25% {
-          opacity: 1;
-          color: hsla(273, 67%, 55%, 0.773);text-shadow:5px 5px 10px red;
-        }
-        50% {
-            opacity: 1;
-            color: whitesmoke;text-shadow:5px 5px 10px;
-        }
-        75%{
-          opacity: 1;
-          color: #0703d7;text-shadow:5px 5px 10px rgba(0, 204, 255, 0.831);
-        }
-        100% {
-            opacity: 1;
-            color: rgb(43, 9, 106);text-shadow:5px 5px 10px rgb(246, 2, 217) ;
-    }
-    }
- .rezerve {
-    width: 400px;
-    height: 50px;
-    background-color: rgb(98, 0, 255);
-    margin-top: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2% 30% 0% 5%;
-    position: relative;
-    overflow: hidden;
-}
-.rezerve a {
-    color: rgb(131 131 132);
-    text-decoration: none;
-    font-size: 25px;
-    font-family: iran;
-    text-align: center;
-    align-items: center;
-
-}
- .rezerve .border-top {
-    position: absolute;
-    top:0px;
-    right: 0;
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(to right, #171618,#282406,#766709, #e0b03e,#d9950c, #a33f08, #b01414 );
-    animation: animate-border-top 2s linear infinite;
-  }
-  @keyframes animate-border-top {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(100%);
-    }
-  }
-  .rezerve .border-right {
-    position: absolute;
-    top: 0;
-    right: 0px;
-    width: 3px;
-    height: 100%;
-    background: linear-gradient(to bottom, #171618,#282406,#766709, #e0b03e,#d9950c, #a33f08, #b01414 );
-    animation: animate-border-right 2s linear infinite;
-    animation-delay: 1s;
-  }
-  @keyframes animate-border-right {
-    0% {
-      transform: translateY(-100%);
-    }
-    100% {
-      transform: translateY(100%);
-    }
-  }
-  .rezerve .border-bottom {
-    position: absolute;
-    bottom: 0px;
-    right: 0;
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(to left, #171618,#282406,#766709, #e0b03e,#d9950c, #a33f08, #b01414 );
-    animation: animate-border-bottom 2s linear infinite;
-  }
-  @keyframes animate-border-bottom {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-  .rezerve .border-left {
-    position: absolute;
-    top: 0;
-    left: 0px;
-    width: 3px;
-    height: 100%;
-    background: linear-gradient(to top,  #171618,#282406,#766709, #e0b03e,#d9950c, #a33f08, #b01414 );
-    animation: animate-border-left 2s linear infinite;
-    animation-delay: 1s;
-  }
-  @keyframes animate-border-left {
-    0% {
-      transform: translateY(100%);
-    }
-    100% {
-      transform: translateY(-100%);
-    }
-  }
-  .nemone {
-    width: 400px;
-    height: 75px;
-    background-color: rgb(98, 0, 255);
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2% 5% 0% 5%;
-    position: relative;
-    overflow: hidden;
-  }
-  .nemone a {
-    color: rgb(131 131 132);
-    text-decoration: none;
-    font-size: 25px;
-
-}
-.nemone p{
-    font-family: iran;
-    text-align: center;
- }
- .nemone .border-top {
-    position: absolute;
-    top:0px;
-    right: 0;
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(to left, #171618,#282406,#766709, #e0b03e,#d9950c, #a33f08, #b01414 );
-    animation: animate-border-top1 2s linear infinite;
-  }
-  @keyframes animate-border-top1 {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-  .nemone .border-right {
-    position: absolute;
-    top: 0;
-    right: 0px;
-    width: 3px;
-    height: 100%;
-    background: linear-gradient(to top, #171618,#282406,#766709, #e0b03e,#d9950c, #a33f08, #b01414 );
-    animation: animate-border-right1 2s linear infinite;
-    animation-delay: 1s;
-  }
-  @keyframes animate-border-right1 {
-    0% {
-      transform: translateY(100%);
-    }
-    100% {
-      transform: translateY(-100%);
-    }
-  }
-  .nemone .border-bottom {
-    position: absolute;
-    bottom: 0px;
-    right: 0;
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(to right, #171618,#282406,#766709, #e0b03e,#d9950c, #a33f08, #b01414 );
-    animation: animate-border-bottom1 2s linear infinite;
-  }
-  @keyframes animate-border-bottom1 {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(100%);
-    }
-  }
-  .nemone .border-left {
-    position: absolute;
-    top: 0;
-    left: 0px;
-    width: 3px;
-    height: 100%;
-    background: linear-gradient(to top,  #171618,#282406,#766709, #e0b03e,#d9950c, #a33f08, #b01414 );
-    animation: animate-border-left1 2s linear infinite;
-    animation-delay: 1s;
-  }
-  @keyframes animate-border-left1 {
-    0% {
-      transform: translateY(-100%);
-    }
-    100% {
-      transform: translateY(100%);
-    }
-  }
+</body>
+</html>
