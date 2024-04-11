@@ -126,7 +126,7 @@ margin-top: 30px;
     width: 400px;
     height: 50px;
     background-color: rgb(98, 0, 255);
-    margin-top: 30%;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     padding: 2% 30% 0% 5%;
@@ -134,7 +134,7 @@ margin-top: 30px;
     overflow: hidden;
 }
 .rezerve a {
-    color: rgb(131 131 132);
+    color: whitesmoke;
     text-decoration: none;
     font-size: 25px;
     font-family: iran;
@@ -224,7 +224,7 @@ margin-top: 30px;
     overflow: hidden;
   }
   .nemone a {
-    color: rgb(131 131 132);
+    color:  whitesmoke;
     text-decoration: none;
     font-size: 25px;
 
