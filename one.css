@@ -71,10 +71,10 @@ margin-top: 30px;
     #p2{
         font-family:cursive;
         font-size: 60px;
-        margin-top: 1%;
+        margin-top: 50px;
         text-align: center;
     }
-    #p2,.logo{
+    #p2,.logo, #p1{
         animation: colorChange 10s infinite;
     }
 
